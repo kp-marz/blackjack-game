@@ -1,9 +1,15 @@
-let shopperWallet = 1;
-
-
-  if (shopperWallet >= 5) {
-    console.log('Buy Bananas');
+function changeCard(card){
+    card.suit = "clubs";
 }
-    else {
-        console.log('Go Home');
+
+let cards = [ 
+    {
+    suit: "Hearts",
+    value: "Queen"
     }
+
+];
+
+changeCard(card);
+
+console.log(card.suit);
